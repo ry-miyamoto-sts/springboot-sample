@@ -30,6 +30,8 @@
     }
   },
   "forwardPorts": [8080],
-  "postCreateCommand": "java -version && mvn -version",
+  "postCreateCommand": [
+     "./scripts/postCreateCommand.sh"
+  ],
   "remoteUser": "vscode"
 }
