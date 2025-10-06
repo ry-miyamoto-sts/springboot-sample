@@ -1,9 +1,0 @@
-# このリポジトリのアシスタント設定
-# このファイルは、ツールやボットがリポジトリとやり取りする際の
-# 言語設定に関する機械可読のヒントです。
-# フィールドは最小限にして安定させてください。
-preferred_assistant_language: ja
-
-# 将来的に追加できるオプション例:
-# preferred_timezone: "Asia/Tokyo"
-# require_commit_message_locale: ja
