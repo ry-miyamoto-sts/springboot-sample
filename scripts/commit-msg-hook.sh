@@ -19,7 +19,7 @@ if [ -z "${MSG//[[:space:]]/}" ]; then
 fi
 
 # 許可される接頭辞の一覧（ユーザー指定）
-TYPES="fix|hotfix|add|feat|update|change|clean|refactor|improve|disable|remove|delete|rename|move|upgrade|revert|docs|style|perf|test|chore"
+TYPES="fix|hotfix|add|feat|update|change|clean|refactor|improve|disable|remove|rename|move|upgrade|revert|docs|style|perf|test|chore"
 
 # プレフィックスのチェック
 RE_HEADER="^(${TYPES})(\(.+\))?:\s+"
