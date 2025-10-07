@@ -56,6 +56,15 @@ mvn spring-boot:run
 - `http://localhost:8080/` - Hello, Spring Boot!
 - `http://localhost:8080/api/hello` - JSON レスポンス
 
+## Swagger UI
+
+SpringDoc OpenAPI により、API ドキュメントを自動生成しています。
+
+- ブラウザで `http://localhost:8080/swagger-ui/index.html` にアクセスすると Swagger UI が表示されます。
+- OpenAPI 仕様の JSON は `http://localhost:8080/v3/api-docs` から取得できます。
+
+アプリケーション起動後にエンドポイントを変更すると、自動的に Swagger UI に反映されます。
+
 ## 含まれる機能
 
 - Java 21
